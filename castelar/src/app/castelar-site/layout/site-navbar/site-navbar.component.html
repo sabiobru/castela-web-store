@@ -1,0 +1,34 @@
+<nav ngxNavbarDynamicExpand class="navbar-dark bg-dark shadow">
+  <a class="navbar-brand" href="#">Castelar</a>
+
+  <button
+    class="navbar-toggler"
+    type="button"
+    (click)="collapse.toggle()"
+    aria-controls="main-nav"
+    aria-expanded="false"
+    aria-label="Navigáció kapcsoló">
+    <span
+      class="navbar-toggler-icon d-flex align-items-center
+      justify-content-center">
+    </span>
+  </button>
+
+  <ngx-navbar-collapse id="main-nav" #collapse="ngxNavbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Linha de Produtos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Fale Conosco</a>
+      </li>
+    </ul>
+  </ngx-navbar-collapse>
+
+</nav>
