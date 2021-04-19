@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "castelar-cms"
+    }
+  },
+  "defaultProject": "castelar-cms",
+  "cli": {
+    "analytics": "031e5086-09e4-48c7-801a-faa46e185f57"
+  }
 }
