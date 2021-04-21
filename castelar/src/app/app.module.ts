@@ -9,8 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { ClientCmsComponent } from './castelar-cms/pages/client/client-cms/client-cms.component';
-import { CreateCmsComponent } from './castelar-cms/pages/client/create-cms/create-cms.component';
-import { UpdateCmsComponent } from './castelar-cms/pages/client/update-cms/update-cms.component';
 import { StoreCmsComponent } from './castelar-cms/pages/store/store-cms/store-cms.component';
 import { CreateClientCmsComponent } from './castelar-cms/pages/client/create-client-cms/create-client-cms.component';
 import { UpdateClientCmsComponent } from './castelar-cms/pages/client/update-client-cms/update-client-cms.component';
@@ -19,6 +17,9 @@ import { UpdateStoreCmsComponent } from './castelar-cms/pages/store/update-store
 import { ProviderCmsComponent } from './castelar-cms/pages/provider/provider-cms/provider-cms.component';
 import { CreateProviderCmsComponent } from './castelar-cms/pages/provider/create-provider-cms/create-provider-cms.component';
 import { UpdateProviderCmsComponent } from './castelar-cms/pages/provider/update-provider-cms/update-provider-cms.component';
+import { DetailsClientCmsComponent } from './castelar-cms/pages/client/details-client-cms/details-client-cms.component';
+import { DetailsProviderCmsComponent } from './castelar-cms/pages/provider/details-provider-cms/details-provider-cms.component';
+import { DetailsStoreCmsComponent } from './castelar-cms/pages/store/details-store-cms/details-store-cms.component';
 
 @NgModule({
   declarations: [
@@ -28,8 +29,6 @@ import { UpdateProviderCmsComponent } from './castelar-cms/pages/provider/update
     NavbarCmsComponent,
     FooterCmsComponent,
     ClientCmsComponent,
-    CreateCmsComponent,
-    UpdateCmsComponent,
     StoreCmsComponent,
     CreateClientCmsComponent,
     UpdateClientCmsComponent,
@@ -38,6 +37,9 @@ import { UpdateProviderCmsComponent } from './castelar-cms/pages/provider/update
     ProviderCmsComponent,
     CreateProviderCmsComponent,
     UpdateProviderCmsComponent,
+    DetailsClientCmsComponent,
+    DetailsProviderCmsComponent,
+    DetailsStoreCmsComponent,
   ],
   imports: [
     BrowserModule,
