@@ -1,0 +1,19 @@
+ <carousel [isAnimated]="true">
+  <slide *ngFor="let slide of slides">
+    <img [src]="slide.path" class="carouse-slide">
+  </slide>
+</carousel>
+
+<div class="container-fluid w-100 m-auto">
+  <div class="row promotions-container">
+    <div id="promotionsList" *ngFor="let item of
+      slidesProducts">
+      <div class="card">
+        <img class="card-img-top" [src]="item.path" alt="Card image cap">
+        <div class="card-footer">
+          <a class="product-link" href="#">{{item.name}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

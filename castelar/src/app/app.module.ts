@@ -4,9 +4,15 @@ import { SidebarCmsComponent } from './castelar-cms/layout/sidebar-cms/sidebar-c
 import { HomeCmsComponent } from './castelar-cms/pages/home-cms/home-cms.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+//imports ngx-bootstrap
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
+import { SiteHomeComponent } from './castelar-site/pages/site-home/site-home.component';
+import { SiteNavbarComponent } from './castelar-site/layout/site-navbar/site-navbar.component';
+import { SiteFooterComponent } from './castelar-site/layout/site-footer/site-footer.component';
+import { SiteSidebarComponent } from './castelar-site/layout/site-sidebar/site-sidebar.component';
 import { FormsModule } from '@angular/forms';
 import { ClientCmsComponent } from './castelar-cms/pages/client/client-cms/client-cms.component';
 import { StoreCmsComponent } from './castelar-cms/pages/store/store-cms/store-cms.component';
@@ -24,6 +30,10 @@ import { DetailsStoreCmsComponent } from './castelar-cms/pages/store/details-sto
 @NgModule({
   declarations: [
     AppComponent,
+    SiteHomeComponent,
+    SiteNavbarComponent,
+    SiteFooterComponent,
+    SiteSidebarComponent,
     HomeCmsComponent,
     SidebarCmsComponent,
     NavbarCmsComponent,
@@ -44,6 +54,8 @@ import { DetailsStoreCmsComponent } from './castelar-cms/pages/store/details-sto
   imports: [
     BrowserModule,
     AppRoutingModule,
+    //imports ngx-bootstrap
+    CarouselModule.forRoot(),
     FormsModule
   ],
   providers: [],

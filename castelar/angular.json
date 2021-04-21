@@ -128,6 +128,10 @@
   },
   "defaultProject": "castelar",
   "cli": {
+<<<<<<< HEAD
+    "analytics": "59e62f66-8e50-4ee8-8f77-2c4ebd7b3a70"
+=======
     "analytics": "1cc120a7-2c99-4765-9a3c-b611e55d01d0"
+>>>>>>> dev-vinicius
   }
 }
