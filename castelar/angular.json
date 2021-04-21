@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "castelar"
+  "defaultProject": "castelar",
+  "cli": {
+    "analytics": "1cc120a7-2c99-4765-9a3c-b611e55d01d0"
+  }
 }
